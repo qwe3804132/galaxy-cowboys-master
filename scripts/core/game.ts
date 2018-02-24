@@ -4,8 +4,8 @@
     let assetManager: createjs.LoadQueue;
     let assetManifest: any[];
     let currentScene: objects.Scene;
-    let helloLabel: objects.Label;
-    let clickMeButton: objects.Button;
+    let helloLabel: ui.Label;
+    let clickMeButton: ui.Button;
     let currentState: number;
 
 

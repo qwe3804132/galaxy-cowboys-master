@@ -1,4 +1,4 @@
-module objects {
+module ui {
     export class Label extends createjs.Text {
         // Private Instance Variables
 
