@@ -1,7 +1,7 @@
 module scenes {
     export class StartScene extends objects.Scene {
-    private _welcomeLabel: objects.Label;
-    private _startButton: objects.Button;
+    private _welcomeLabel: ui.Label;
+    private _startButton: ui.Button;
         constructor(assetManager: createjs.LoadQueue) {
             super(assetManager);
             
@@ -9,8 +9,8 @@ module scenes {
         }
 
         public Start():void {
-            this._welcomeLabel = new objects.Label("Welcome to Galaxy CowBoys", "60px", "Consolas", "#000000", 320, 240, true);
-            this._startButton = new objects.Button(this.assetManager, "startButton", 320, 300);
+            this._welcomeLabel = new ui.Label("Welcome to Galaxy CowBoys", "60px", "Consolas", "#000000", 320, 240, true);
+            this._startButton = new ui.Button(this.assetManager, "startButton", 320, 300);
             this.Main();
         }
 
