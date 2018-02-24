@@ -1,0 +1,29 @@
+{
+  "name": "galaxy-cowboys",
+  "version": "1.0.0",
+  "description": "Two cowboys vs. a whole bunch of aliens. A prototype game made with Typescript and CreateJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeicaSimile/galaxy-cowboys.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeicaSimile/galaxy-cowboys/issues"
+  },
+  "homepage": "https://github.com/LeicaSimile/galaxy-cowboys#readme",
+  "dependencies": {
+    "@types/easeljs": "^1.0.0",
+    "@types/preloadjs": "^0.6.32",
+    "@types/soundjs": "^0.6.27",
+    "@types/tweenjs": "^0.6.27",
+    "easeljs": "^1.0.2",
+    "preloadjs": "^1.0.1",
+    "soundjs": "^1.0.1",
+    "tweenjs": "^1.0.2"
+  }
+}
